@@ -9,5 +9,5 @@
 ### [Source code](https://github.com/hienlth-online/MyApiNetCore6/tree/01_InitWebApiProject)
 
 ## 02 - Repository Pattern
-### [Video - Youtube]()
+### [Video - Youtube]
 ### [Source code](https://github.com/hienlth-online/MyApiNetCore6/tree/02_RepositoryPattern)
