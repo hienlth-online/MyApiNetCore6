@@ -12,3 +12,7 @@
 ## 02 - Repository Pattern
 ### [Video - Youtube](https://www.youtube.com/watch?v=n9ZtR7AHLU8)
 ### [Source code](https://github.com/hienlth-online/MyApiNetCore6/tree/02_RepositoryPattern)
+
+## 03 - Authentication dùng ASP.NET Core Identity
+### [Video - Youtube](https://youtu.be/9YSOZgBvWXY)
+### [Source code](https://github.com/hienlth-online/MyApiNetCore6/tree/03_Authentication)
