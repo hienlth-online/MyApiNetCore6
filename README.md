@@ -1,4 +1,4 @@
-﻿# Series về WebAPI trên nền tảng. Net Core 6
+# Series về WebAPI trên nền tảng. Net Core 6
 ### Các công nghệ sử dụng:
 * ASP.NET Core 6
 * Entity Framework Core 6
