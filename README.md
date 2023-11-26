@@ -16,3 +16,7 @@
 ## 03 - Authentication dùng ASP.NET Core Identity
 ### [Video - Youtube](https://youtu.be/9YSOZgBvWXY)
 ### [Source code](https://github.com/hienlth-online/MyApiNetCore6/tree/03_Authentication)
+
+## 04 - Authorization dùng Role
+### [Video - Youtube](https://youtu.be/ltQQPPWV3QA)
+### [Source code](https://github.com/hienlth-online/MyApiNetCore6/tree/04_Authorization)

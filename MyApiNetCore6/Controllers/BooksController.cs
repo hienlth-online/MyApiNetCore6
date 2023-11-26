@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApiNetCore6.Data;
+using MyApiNetCore6.Helpers;
 
 namespace MyApiNetCore6.Controllers
 {
@@ -22,13 +24,15 @@ namespace MyApiNetCore6.Controllers
 
         // GET: api/Books
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
+		[Authorize(Roles = AppRole.Customer)]
+		public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
         {
             return await _context.Books!.ToListAsync();
         }
 
         // GET: api/Books/5
         [HttpGet("{id}")]
+        [Authorize(Roles =AppRole.Admin)]
         public async Task<ActionResult<Book>> GetBook(int id)
         {
             var book = await _context.Books!.FindAsync(id);
